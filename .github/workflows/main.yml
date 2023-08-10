@@ -25,4 +25,4 @@ jobs:
             accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
             projectName: website # e.g. 'my-project'
             directory: docs/.vuepress/dist
-            gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+            # gitHubToken: ${{ secrets.GITHUB_TOKEN }}
