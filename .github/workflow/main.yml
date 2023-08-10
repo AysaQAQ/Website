@@ -8,30 +8,20 @@ jobs:
     name: Deploy to Cloudflare Pages
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@master
       # Run your project's build step
       # - name: Build
       #   run: npm install && npm run build
       
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+      - name: use Node.js
+        uses: actions/setup-node@v1
         with:
-          # 选择要使用的 pnpm 版本
-          version: 8
-          # 使用 pnpm 安装依赖
-          run_install: true
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          # 选择要使用的 node 版本
-          node-version: 18
-          # 缓存 pnpm 依赖
-          cache: pnpm
-
-      # 运行构建脚本
-      - name: Build VuePress site
-        run: pnpm docs:build
+            node-vertion:10
+        
+      - name:npm install and build
+        run:|
+          npm install
+          npm run build
         
       - name: Publish
         uses: cloudflare/pages-action@1
