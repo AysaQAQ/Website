@@ -1,6 +1,6 @@
-"node_modules"
-".temp"
-".cache"
+.temp
+.cache
 docs/.vuepress/.cache
 docs/.vuepress/.temp
 docs/.vuepress/dist
+node_modules
