@@ -2,7 +2,7 @@
 
 [Country Road~](/readme.md)
 
-[A Two-way Ticket](../engScript.md)
+[The Empire Strikes](../engScript.md)
 
 
 
