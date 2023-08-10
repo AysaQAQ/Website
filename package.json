@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	 "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.66"
+  },
+  "dependencies": {
+    "vue-pdf": "^4.3.0",
+    "vue-pdf-embed": "^1.1.6",
+    "webpack": "^5.88.2"
   }
 }
