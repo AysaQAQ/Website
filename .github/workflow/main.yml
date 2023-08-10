@@ -12,6 +12,12 @@ jobs:
       # Run your project's build step
       # - name: Build
       #   run: npm install && npm run build
+      
+      - name: Build production bundle
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: run docs:build
+      
       - name: Publish
         uses: cloudflare/pages-action@1
         with:
