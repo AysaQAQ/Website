@@ -23,6 +23,6 @@ jobs:
         with:
             apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
             accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-            projectName: AysaQAQ # e.g. 'my-project'
+            projectName: website # e.g. 'my-project'
             directory: docs/.vuepress/dist
             gitHubToken: ${{ secrets.GITHUB_TOKEN }}
