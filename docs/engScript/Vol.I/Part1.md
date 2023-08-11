@@ -1,10 +1,6 @@
-# Vol.I Part1 微积分
+## Vol.I Part1 微积分
 
-[Country Road~](/readme.md)
-
-[The Empire Strikes](./Vol.I.md)
-
-## 教材说明
+### 教材说明
 
 - 《普林斯顿微积分读本》
 - [美] Adrian Banner 著
@@ -25,7 +21,11 @@
 
 
 
+[Country Road~](/readme.md)
 
+[The Empire Strikes](./Vol.I.md)
+
+## 
 
 
 

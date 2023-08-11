@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'notoEmoji';
+	src: url('E:/Website/docs/.vuepress/public/fonts/NotoColorEmoji-Regular.ttf');
+	font-display: auto;
+	unicode-range: U+1F???;
+};
+
+:root {
+	scroll-behavior: smooth;
+
+}
+
+body {
+	font-family: 'notoEmoji';
+}
