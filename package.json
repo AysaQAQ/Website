@@ -16,6 +16,7 @@
   "dependencies": {
     "vue-pdf": "^4.3.0",
     "vue-pdf-embed": "^1.1.6",
+    "vuepress-theme-pad": "^1.0.20",
     "webpack": "^5.88.2"
   }
 }

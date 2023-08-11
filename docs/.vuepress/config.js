@@ -21,3 +21,10 @@ chainWebpack: config => {
         esModule: false,
       });
   }
+  
+   module.exports = {
+      // Use this theme
+      theme: 'pad',
+      // Fill in the webpage title in title
+      title: 'your-title',
+  }
