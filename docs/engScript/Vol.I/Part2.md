@@ -8,7 +8,7 @@
 
 </body>
 
-### 教材说明
+### 参考书信息
 
 - _Mathematical Logic_
 - 《数理逻辑》
